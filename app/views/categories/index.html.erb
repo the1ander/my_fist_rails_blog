@@ -1,0 +1,9 @@
+<h2 class="text-center"> Categories</h2>
+
+<div class="flex-category-boxes pt-5">
+<%  @categories.each do |category| %>
+<div class="category-box shadow bg-white rounded">
+<P><%= category.name %></P>
+</div>
+<% end %>
+</div>
